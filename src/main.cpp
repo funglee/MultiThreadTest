@@ -13,7 +13,7 @@ using namespace std;
 
 #define NUM_THREADS     5
 
-void *PrintHello(void *threadid)
+void* PrintHello(void *threadid)
 {
    long tid;
    tid = (long)threadid;
